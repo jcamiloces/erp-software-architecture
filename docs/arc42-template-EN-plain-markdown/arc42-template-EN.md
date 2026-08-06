@@ -73,7 +73,7 @@ caja negra, interactuando con el usuario Administrador de Compras y con
 el Sistema Contable Externo, al cual se le envían los datos de facturas 
 y asientos contables generados por las compras.
 
-![Diagrama de Contexto](./images/c1_context.png)
+![Diagrama de Contexto](../images/c1_context.png)
 
 ## Technical Context {#_technical_context}
 
