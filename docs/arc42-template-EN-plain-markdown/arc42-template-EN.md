@@ -1,6 +1,6 @@
 ---
 date: July 2025
-title: "![arc42](images/arc42-logo.png) Template"
+title: "![logo](..images/arc42-logo.png) Template"
 ---
 
 # 
@@ -136,7 +136,7 @@ Activos Fijos, Empleados, EIS) en iteraciones futuras.
 
 ## Whitebox Overall System
 
-![Diagrama de Contenedores](./images/c2_containers.png)
+![Diagrama de Contenedores](../images/c2_containers.png)
 
 Motivation
 :   Se optó por una arquitectura monolítica simple para el Módulo de 
@@ -198,7 +198,7 @@ Contenedores (C2) de C4.*
 El siguiente escenario describe el flujo para la historia de usuario 
 "Como gestor de inventario, quiero registrar nuevos productos...".
 
-![Diagrama de Secuencia](./images/sequence_registrar_producto.png)
+![Diagrama de Secuencia](../images/sequence_registrar_producto.png)
 
 El gestor de inventario completa el formulario en la SPA, la cual 
 valida los campos obligatorios antes de enviar la solicitud. La API 
