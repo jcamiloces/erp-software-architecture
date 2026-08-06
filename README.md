@@ -1,4 +1,4 @@
-# Proyecto ERP - Grupo X — Documentación de Arquitectura
+# Proyecto ERP - Documentación de Arquitectura
 
 Repositorio de documentación de arquitectura de software para el 
 Módulo de Compras del Sistema ERP, desarrollado como taller de la 
