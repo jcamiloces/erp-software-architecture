@@ -178,6 +178,26 @@ base de datos vía JDBC.
 *Fulfilled Requirements*: Todas las historias de usuario del módulo 
 de compras.
 
+### Modelo de Datos (Módulo de Compras)
+
+El siguiente modelo Entidad-Relación (MER) representa la estructura de 
+datos que soporta el Módulo de Compras, incluyendo productos, 
+proveedores, su relación de precios y las órdenes de compra.
+
+![Modelo Entidad-Relación](../images/mer_compras.png)
+
+Las entidades principales son:
+
+- **Producto**: representa cada ítem del catálogo.
+- **Proveedor**: representa a la entidad externa que suministra 
+  productos.
+- **Producto_Proveedor**: tabla intermedia que resuelve la relación 
+  muchos-a-muchos entre productos y proveedores, incluyendo el precio 
+  unitario ofrecido por cada proveedor.
+- **OrdenDeCompra** y **DetalleOrden**: modelan la solicitud formal de 
+  productos a un proveedor específico, con sus cantidades y precios 
+  asociados en el momento de la compra.
+  
 ### Base de Datos (PostgreSQL)
 
 *Purpose/Responsibility*: Persistencia de las entidades Producto, 
