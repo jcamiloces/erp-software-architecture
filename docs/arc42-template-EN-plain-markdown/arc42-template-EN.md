@@ -42,7 +42,7 @@ de negocio principales son:
 |     1     |      Usabilidad     | El formulario de registro de productos debe validar datos en tiempo real, para reducir errores de captura. |
 |     2     | Integridad de datos | El sistema no debe permitir productos duplicados ni datos numéricos inválidos en precios.                  |
 |     3     |   Disponibilidad    | El módulo de compras debe estar disponible durante el horario laboral de la empresa.                       |
-+----------------------------------------------------------------------------------------------------------------------------------------------+
+
 
 ## Stakeholders
 
@@ -51,7 +51,7 @@ de negocio principales son:
 | Gestor de Inventario | inventario@erp.com | Registrar y consultar productos de forma ágil     |
 | Gestor de Compras    | compras@erp.com    | Registrar proveedores y generar órdenes de compra |
 | Equipo de Desarrollo | dev@erp.com        | Contar con arquitectura clara y documentada       |
-+-----------------------------------------------------------------------------------------------+
+
 
 
 # Architecture Constraints {#section-architecture-constraints}
