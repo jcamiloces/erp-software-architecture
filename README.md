@@ -2,7 +2,7 @@
 
 Repositorio de documentación de arquitectura de software para el 
 Módulo de Compras del Sistema ERP, desarrollado como taller de la 
-asignatura Software Patterns and Design en la Universidad Manuela 
+asignatura software architecture en la Universidad Manuela 
 Beltrán.
 
 ## Objetivo del taller
